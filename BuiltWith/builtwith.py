@@ -45,4 +45,5 @@ while ini != -1:          # en este bucle se buscan las herramientas generales
 		if info.find("<a class=\"text-dark\" href=\"",ini2)>limite or limite==len(info):  # es para que no se imprime una herramienta especifica no correspondiente a una herramienta general
 			break
 
+f.close()			
 os.system('rm temp.txt')    # eliminación del archivo temporal
